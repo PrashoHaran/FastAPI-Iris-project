@@ -43,7 +43,6 @@ ML-FASTAPI-IRIS/
 ### 1. Clone the Repository  
 ```bash
 git clone https://github.com/PrashoHaran/FastAPI-Iris-project.git
-cd ML-FASTAPI-IRIS
 ```
 
 ### 2. Create Virtual Environment & Install Dependencies  
@@ -67,11 +66,11 @@ uvicorn app.main:app --reload
 
 ### 5. Open Interactive API Docs  
 
-👉 [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)  
+[http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)  
 
 ---
 
-## 📌 Example API Usage  
+## Example API Usage  
 
 ### Health Check  
 ```http
