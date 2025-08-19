@@ -1,16 +1,16 @@
-# 🌸 ML FastAPI – Iris Flower Classification  
+# ML FastAPI – Iris Flower Classification  
 
 This project is a **FastAPI-based ML inference service** that predicts the species of an Iris flower given its sepal and petal measurements.  
 
 ---
 
-## 📘 Problem Description  
+## Problem Description  
 The **Iris dataset** is a classic dataset in machine learning containing measurements of **sepal length, sepal width, petal length, and petal width** for three species of Iris flowers (*Setosa, Versicolor, Virginica*).  
 The task is to build a machine learning model that classifies a flower into one of the three species based on these four features.  
 
 ---
 
-## 🤖 Model Choice & Justification  
+## Model Choice & Justification  
 We used a **Logistic Regression** classifier (with preprocessing) because:  
 - It’s a **simple yet powerful model** for multiclass classification.  
 - Works well on small datasets like Iris.  
@@ -38,11 +38,11 @@ ML-FASTAPI-IRIS/
 
 ---
 
-## ⚙️ How to Run the Application  
+## How to Run the Application  
 
 ### 1. Clone the Repository  
 ```bash
-git clone https://github.com/<your-username>/ML-FASTAPI-IRIS.git
+git clone https://github.com/PrashoHaran/FastAPI-Iris-project.git
 cd ML-FASTAPI-IRIS
 ```
 
@@ -50,7 +50,6 @@ cd ML-FASTAPI-IRIS
 ```bash
 python -m venv .venv
 .venv\Scripts\activate      # On Windows
-source .venv/bin/activate   # On Mac/Linux
 
 pip install -r requirements.txt
 ```
