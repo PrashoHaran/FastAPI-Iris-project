@@ -11,7 +11,7 @@ The task is to build a machine learning model that classifies a flower into one 
 ---
 
 ## Model Choice & Justification  
-We used a **Logistic Regression** classifier (with preprocessing) because:  
+I used a **Logistic Regression** classifier (with preprocessing) because:  
 - It’s a **simple yet powerful model** for multiclass classification.  
 - Works well on small datasets like Iris.  
 - Lightweight and **fast to serve in real-time inference** via API.  
