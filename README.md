@@ -66,6 +66,7 @@ uvicorn app.main:app --reload
 ```
 
 ### 5. Open Interactive API Docs  
+
 👉 [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)  
 
 ---
@@ -121,7 +122,7 @@ GET /model-info
 
 ---
 
-## 🏆 Deliverables  
+## Deliverables  
 - **main.py** → FastAPI application (`app/main.py`)  
 - **model.pkl** → Saved model (`models/model.pkl`)  
 - **requirements.txt** → Dependencies  
